@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="css/style-switcher.css">
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init({
+  publicKey: "epYcIMIp9Uys-h6Yp",
+});
+})();
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My protfolio page</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="aside">
+      <div class="logo">
+        <a href="#  ">
+          <span>P</span>remier
+        </a>
+      </div>
+      <div class="nav-toggler" onclick="show()">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="asidee" style="display: none;" id="tabs" onclick="done()">
+      <div class="logo">
+        <a href="#  ">
+          <span>P</span>remier
+        </a>
+      </div>
+      <div class="nav-toggler" onclick="show()">
+        <span></span>
+      </div> 
+      <br><br><br>
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <section class="home section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">Hello, my name is <span class="name">developer Premier</span></h3>
+              <h3 class="my-profession" style="height: 15vh; font-size: 24px;">I'm  <span class="typing">fullstack developer</span></h3>
+              <p>I'm a Full-stack developer with 3 years of experience, blending web design, AI, and data analysis
+                 to create responsive, impactful web solutions. Available for both full-time and freelance projects
+                  to elevate your digital presence.</p>
+                 <a href="#form-section" class="btn hire-me" onclick="alert('Use email to communicate.')">Hire me</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/img.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>I'm Premier UFITINEMA a <span>Web developer</span></h3>
+                  <p>
+                    I'm a Rwandan Full-stack developer with a passion for tech that began in childhood, 
+                    leading to expertise in web development, AI, and data analysis. With a logical, 
+                    problem-solving approach, I create custom digital solutions that meet client goals.
+                    Supported by a skilled team, I ensure projects are delivered efficiently and on time. 
+                    I'm available for both freelance and full-time roles to bring clients' digital visions to 
+                    life.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+              <div class="personal-info padd-15">
+                <div class="row">
+                  <div class="info-item padd-15">
+                    <p>Names : <span>Premier UFITINEMA</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Nationality : <span>Rwanda</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Birthday : <span>29 September 2002</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Email : <span>premierufitinema@gmail.com</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Phone : <span>+250783709631</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Freelance : <span>Available</span></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="buttons padd-15">
+                    <a href="#" class="btn">Download cv</a>
+                    <a href="#form-section" class="btn hire-me" onclick="alert('Use email to communicate.')">Hire me</a>
+                  </div>
+                </div>
+              </div>
+              <div class="skills padd-15">
+                <div class="row">
+                  <div class="skill-item padd-15"> 
+                    <h5>CAREER SKILLS</h5>
+                    <h5>JS</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width: 88%;"></div>
+                      <div class="skill-percent">88%</div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>PHP</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width: 90%;"></div>
+                      <div class="skill-percent">90%</div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>Java</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width: 68%;"></div>
+                      <div class="skill-percent">68%</div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>React</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width: 80%;"></div>
+                      <div class="skill-percent">80%</div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>CSS</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width: 95%;"></div>
+                      <div class="skill-percent">95%</div>
+                    </div>
+                  </div>   
+                  <div class="skill-item padd-15">
+                    <h5>HTML</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width: 96%;"></div>
+                      <div class="skill-percent">96%</div>
+                    </div>
+                  </div>  
+                  <div class="skill-item padd-15">
+                    <h5>Bootstrap</h5>
+                    <div class="progress">
+                      <div class="progress-in" style="width: 90%;"></div>
+                      <div class="skill-percent">90%</div>
+                    </div>
+                  </div>                 
+                </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Education</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <div class="timeline-item">
+                          <div class="circle-dot">
+
+                          </div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2020 - 2021
+                          </h3>
+                          <h4 class="timeline-title">Computer applications</h4>
+                          <p class="timeline-text">
+                            In my computer applications class, I developed skills in Microsoft Office, Google Workspace, 
+                            and Adobe tools, building a foundation in graphic design to create
+                             and present information effectively. I learned to apply these tools in real-life situations,
+                            . Rapid typing exercises further boosted my efficiency, strengthening my digital literacy and
+                             preparing me to contribute confidently to tech-driven projects requiring both technical and creative skills.
+                          </p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot">
+
+                          </div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2021 - 2023
+                          </h3>
+                          <h4 class="timeline-title">Software development</h4>
+                          <p class="timeline-text">
+                            From 1 September 2021 to 29 August 2023 I was studying about software development, I gained hands-on experience with Python, JavaScript,
+                             C, and C++. I learned key concepts like object-oriented programming, algorithms, 
+                             and data structures for building efficient applications. I explored database development
+                              and worked with frameworks like Node.js and React for back-end and front-end development. 
+                              Additionally, I learned about Bootstrap for responsive design, along with software maintenance
+                               and hosting. Through practical projects, I applied these skills to develop user-friendly
+                                applications and troubleshoot effectively.
+                          </p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot">
+
+                          </div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>2023 - 2024
+                          </h3>
+                          <h4 class="timeline-title">AI career essentials and introduction to data data science</h4>
+                          <p class="timeline-text">In my Introduction to Data Science and Artificial Intelligence course,
+                             I learned foundational concepts and tools, including data analysis, machine learning,
+                              and statistical modeling. I gained practical experience with Python and libraries like
+                               Pandas and NumPy for data manipulation. The course also covered data visualization,
+                                AI ethics, and real-world applications of AI, equipping me with skills to analyze data
+                                 effectively and understand the implications of AI technologies.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experiance padd-15">
+                  <h3 class="title">Experiance</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <div class="timeline-item">
+                          <div class="circle-dot">
+
+                          </div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>April 1, 2023 – June 1, 2023
+                          </h3>
+                          <h4 class="timeline-title">Full stack developer(SALTEL Technologies)</h4>
+                          <p class="timeline-text">During my two-month tenure at SALTEL Technologies, I contributed to the development
+                             and maintenance of web applications, working on both the front-end and back-end.
+                              I utilized technologies such as JavaScript, HTML, CSS, and various frameworks to create
+                               responsive user interfaces and ensure seamless functionality. I collaborated with 
+                               cross-functional teams to deliver high-quality software solutions while learning best 
+                               practices in software development. I chose to leave this position to focus on my studies
+                                and further enhance my skills in software development.
+                          </p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot">
+
+                          </div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>April 22, 2024 – June 22, 2024
+                          </h3>
+                          <h4 class="timeline-title">Front End Developer Intern</h4>
+                          <p class="timeline-text">As a Front End Developer Intern at Rails Acs, I worked remotely
+                             for two months, focusing on building and enhancing user interfaces for web applications. 
+                             I collaborated with designers and developers to implement responsive and visually appealing 
+                             layouts using technologies such as HTML, CSS, and JavaScript. During my internship, I gained
+                              experience in version control with Git and contributed to project discussions, enhancing my
+                               understanding of the development lifecycle. This role allowed me to refine my skills in front-end
+                                development while gaining valuable insights into remote teamwork and agile methodologies.
+                          </p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot">
+
+                          </div>
+                          
+                          <h4 class="timeline-title">Freelance</h4>
+                          <p class="timeline-text">I possess strong freelance capabilities, adept at
+                             managing projects independently while delivering high-quality results under 
+                             tight deadlines. My experience in freelance work has honed my skills in effective 
+                             communication, client collaboration, and time management, allowing me to
+                              understand and fulfill diverse client needs. <br>.<br>.<br>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section class="service section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Service</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="service-item padd-15">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fa fa-code"></i>
+              </div>
+              <h4>Web development</h4>
+              <p>
+                I provide front-end design, responsive development, and full-stack web solutions for user-friendly websites. <br>.
+              </p>
+            </div>
+          </div>
+          <div class="service-item padd-15">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fa fa-certificate"></i>
+              </div>
+              <h4>front-end development trainings</h4>
+              <p>I offer front-end development training focused on HTML, CSS, JavaScript, and responsive design, equipping learners with essential
+                 skills to build interactive and user-friendly websites.
+              </p>
+            </div>
+          </div>
+          <div class="service-item padd-15">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fa fa-eye"></i>
+              </div>
+              <h4>graphic design</h4>
+              <p>
+                I offer graphic design services, including branding, digital illustrations, and graphic editing and making, to help businesses 
+                communicate their visual identity effectively.
+              </p>
+            </div>
+          </div>
+          <div class="service-item padd-15">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fa fa-palette"></i>
+              </div>
+              <h4>Product design</h4>
+              <p>I offer product design services, including user research, wireframing, prototyping, and user interface design, to create functional
+                 and visually engaging products that meet user needs. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="portfolio-heading padd-15">
+            <h2>My last projects</h2>
+          </div>
+        </div>
+        <div class="rows">
+          <img src="images/ph1.jpg" alt="">
+          <img src="images/ph2.jpg" alt="">
+          <img src="images/ph3.jpg" alt="">
+          <img src="images/ph4.png" alt="">
+          <img src="images/ph5.png" alt="">
+          <img src="images/pr3.png" alt="">
+        </div>
+      </div>
+    </section id>
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <h3 class="contact-title padd-15">In case you need us</h3>
+        <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICE</h4>
+        <div class="row">
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-phone"></i></div>
+            <h4>Call me on</h4>
+            <p>+250783709631</p>
+          </div>
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-envelope"></i></div>
+            <h4>Email me</h4>
+            <p>premierufitinema@gmail.com</p>
+          </div>
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-square-telegram">IG</i></div>
+            <h4>instagram</h4>
+            <p>premier_ufitinema</p>
+          </div>
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-map-marker"></i></div>
+            <h4>Location</h4>
+            <p>Rwanda Kigali Gasabo/near this location(1°55'45.9"S 30°09'12.0"E)</p>
+          </div>
+        </div><section id="form-section">
+        <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+        <h4 class="contact-sub-title padd-15">I'll REPLY YOU SOON</h4>
+        <div class="row">
+          <div class="contact-form padd-15">
+            <div class="row">
+              <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Name" id="name">
+                </div>
+              </div>
+              
+              <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email" id="email">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
+              <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                  <textarea name="" id="message" class="form-control" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+             <button type="submit" class="btn" style="margin-left: 20px;" onclick="sendMail()">Send message</button>
+            </div>
+          </div>
+        </div></section>
+      </div>
+    </section>
+    </div>
+  </div>
+<div class="style-switcher">
+  <div class="style-switcher-toggler s-icon">
+    <i class="fas fa-cog fa-spin">
+
+    </i>
+  </div>
+  <div class="day-night s-icon">
+    <i class="fas "></i>
+  </div>
+    <h4>Theme colors</h4>
+  <div class="colors">
+    <span class="color-1" onclick="setActiveStyle('color-1');"></span>
+    <span class="color-2" onclick="setActiveStyle('color-2');"></span>
+    <span class="color-3" onclick="setActiveStyle('color-3');"></span>
+    <span class="color-4" onclick="setActiveStyle('color-4');"></span>
+    <span class="color-5" onclick="setActiveStyle('color-5');"></span>
+  </div>
+  <script src="send.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
+  <script>
+    function show(){
+      document.getElementById("tabs").style.display="block";
+    }
+    function done(){
+      document.getElementById("tabs").style.display="none";
+    }
+    window.addEventListener("scroll", () =>{
+    if(document.getElementById("tabs").style.display="block"){
+      document.getElementById("tabs").style.display="none";
+    }
+})
+  </script>
+</body>
+</html>
